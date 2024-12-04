@@ -17,7 +17,7 @@ const bodyElement = document.body;
 const headerElement = document.querySelector('.header h1');
 
     function gantiTeks() {
-        const teksList = ["Hello World!", "Coding is Fun!", "I love JS!", "Welcome to My WebPage!", "Enjoy Your Visit!"];
+        const teksList = ["Hello World !", "Coding is Fun !", "I love JS !", "Welcome to My WebPage !", "Enjoy Your Visit !"];
         const randomIndex = Math.floor(Math.random() * teksList.length);
         const teksBaru = teksList[randomIndex];
         headerElement.textContent = teksBaru;
